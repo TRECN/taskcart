@@ -1,0 +1,73 @@
+.movie-api-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  .movie-api-page h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .movie-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .movie-item h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+  
+  .movie-item p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .movie-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+  
+  .loading {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 1.2rem;
+  }
+  
+  .empty {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
